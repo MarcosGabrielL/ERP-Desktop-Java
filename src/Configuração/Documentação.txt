@@ -1,0 +1,41 @@
+Parâmetros de configuração da biblioteca
+
+Ajustando a porta de comunicação com a balança
+port:COM1
+
+Velocidade de comunicação
+baund:9600
+
+Bits dos dados
+data:8
+
+Bits de parada
+stop:1
+stop:1.5
+stop:2
+
+Paridade
+parity:space   - espaço
+parity:mark    - marcador
+parity:even    - par
+parity:odd     - impar
+parity:none    - nenhum (padrão)
+
+Fluxo
+flow:dsrdtr    - DSR/DTR
+flow:rtscts    - RTS/CTS
+flow:xonxoff   - XON/XOFF (padrão)
+flow:none      - nenhum
+
+Tempo de espera na conexão com a porta
+timeout:500
+
+Tempo de espera antes de procurar novamente por uma porta de uma balança
+(somente após tentar todas as portas disponíveis no computador)
+retry:1500
+
+Tempo de espera antes de verificar se a balança ainda está conectada
+alive:10000
+
+para enviar mais de um comando de uma vez, separe por ;
+exemplo: port:COM3;baund:9600

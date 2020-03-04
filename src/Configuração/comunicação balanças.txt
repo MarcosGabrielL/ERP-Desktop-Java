@@ -1,0 +1,54 @@
+Filizola:
+
+Envia:
+0x05 - Enquiry, Pergunta
+
+Recebe:
+0x02 - Inicio do texto
+00000 - Peso em gramas
+0x03 - Fim do texto
+
+exemplo:
+send(COM1, );
+recv(COM1) => 01250
+
+
+Toledo:
+Ajustando o preço do quilo:
+0x02 - Inicio do texto
+000000 - preço do quilo
+0x03 - Fim do texto
+
+Alfa Intrumentos: 
+Indicador de peso modelo 3101C
+Envia:
+01P\r\n
+
+Recebe um dos comandos abaixo:
+Peso bruto:
+PB: 230,50 T: 000,00\r\n
+
+Peso líquido:
+PL: 123,45 T: 010,00\r\n
+
+Peso instável:
+**: 230,50 T: 000,00\r\n
+
+Elgin:
+Balança eletrônica de plataforma modelo BPW - 10.000
+Envia:
+RD\r\n
+
+Recebe:
+Se estável:
+0,001.250,000.250,001.000\r\n
+
+Se instável:
+1,001.250,000.250,001.000\r\n
+
+Onde:
+0 ou 1 é o estado do peso
+001.250 é o peso bruto
+000.250 é o tara
+001.000 é o peso líquido
+todos são separados por vírgula
