@@ -1,5 +1,12 @@
 # eGDV-Supermercado
+
 Frente de Caixa e Gerenciador de Vendas para Lojas Varejo e Atacado Nfe e NFCe 4.0
+
+## Download Executavel
+
+<a href="https://drive.google.com/uc?export=download&amp;id=1DfXcW65SW3JSxPb2DRspZG-KIhbu5sr-" target="_blank">Download</a> Exectavel
+
+## Recursos
 
 Análise de dados corporativos, relatórios e emissão de notas fiscais com agilidade nos processos e tomadas de decisões. Total controle na palma da sua mão 💹
 
